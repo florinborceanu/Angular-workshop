@@ -1,0 +1,14 @@
+<div class="sidebar">
+  <ng-container *ngFor="let person of people">
+    <ul>
+      <li>
+        <div class="person-id">
+          {{person.id}}
+        </div>
+        <div class="person-name" (click)="selectThis(person)">
+          {{person.firstName}} {{person.lastName}}
+        </div>
+      </li>
+    </ul>
+  </ng-container>
+</div>

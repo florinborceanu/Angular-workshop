@@ -1,0 +1,24 @@
+.sidebar {
+    height: 100%;
+    width: 300px;
+    overflow-y: auto;
+    background-color: lightgray;
+    position: fixed;
+    top: 60px;
+}
+
+li { 
+    margin: 5px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    .person-id{
+        font-size: 13px;
+        color: brown;
+    }
+    .person-name {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    cursor: pointer;
+}
